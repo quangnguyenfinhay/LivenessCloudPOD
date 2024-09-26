@@ -28,7 +28,6 @@ Pod::Spec.new do |spec|
   spec.source            = { :http => 'https://github.com/trungnguyen1791/LivenessCloudPOD/releases/download/1.6.0/LivenessCloud.zip' }
   spec.vendored_frameworks = 'LivenessCloud/LivenessCloud.xcframework'
   spec.dependency "ObjectMapper", '~> 4.2'
-  spec.dependency "KeychainSwift", '~> 19.0'
   spec.dependency "CryptoSwift", '~> 1.8.2'
   spec.dependency "SignManager", '~> 1.0.6'
 
